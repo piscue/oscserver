@@ -9,5 +9,4 @@ RUN make
 WORKDIR /app/oscgroups
 RUN make
 WORKDIR /app/oscgroups/bin
-EXPOSE 22242
-ENTRYPOINT ./OscGroupServer
+EXPOSE 22242/udp
